@@ -52,7 +52,14 @@ Complete the exercise in the space below:
 */
 
 function isCharAVowel(chr) {
-  if (chr >= 'a' && chr <= 'y') {
+  if (
+    chr === 'a' ||
+    chr === 'v' ||
+    chr === 'o' ||
+    chr === 'w' ||
+    chr === 'e' ||
+    chr === 'l'
+  ) {
     return true
   } else {
     return false
